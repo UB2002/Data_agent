@@ -5,7 +5,7 @@ from routes import upload, ask
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://data-agent-pi.vercel.app"],  # or ["*"] for all origins
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
