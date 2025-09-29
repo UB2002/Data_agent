@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:3000", // backend URL
+  baseURL: "https://data-agent-27lk.onrender.com", // backend URL
 });
 
 export const uploadFile = async (file) => {
